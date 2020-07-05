@@ -1,5 +1,3 @@
-import DataCountry from "./../data/Flagdata.js";
-import { parseJSON } from "jquery";
 class mealItem extends HTMLElement{
  
     set meals(meal){
@@ -93,19 +91,16 @@ const modal=` <div class="modal fade " id="meal${this._meal.idMeal}" tabindex="-
                                                                                                     <p class="g-bold size20"> Watch it on Youtube!</p>
                                                                                                     <iframe class="w-100" style="height: 30rem;" src="https://www.youtube.com/embed/${youtubeembedlink}">
                                                                                                     </iframe>
-                                                                                            </div>
-                                                                                                </div>
-                                                          
-                                                                                                
+                                                                                                     </div>
+                                                                                                </div>      
                                                                                           </div>  
                                                                                      </div>
-                                                                            
-                                           <div class="modal-footer">
-                                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                               </div>
-                                   </div>
-                               </div>
-                           </div>`
+                                                               <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                              </div>
+                                                         </div>
+                                                     </div>
+                                              </div>`
 
 
         this.innerHTML=`

@@ -1,6 +1,6 @@
 import '../component/meal-search-list.js';
 import  DataMeal from '../data/dataMealsearch.js';
-
+import '../component/meal-category-list.js'
 const main = ()=>{
     const searchElement=document.querySelector("#searchMeal");
     const mealListElement = document.querySelector("meal-search-list");
