@@ -92,4 +92,10 @@ section{
   .pointer{
       cursor: pointer;
   }
- 
+  .cate-icon:hover{
+    padding: 4rem !important;
+    transition: 1s;
+  }
+  .cate-icon{
+      transition: 1s;
+  }
