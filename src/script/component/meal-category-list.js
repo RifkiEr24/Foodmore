@@ -13,7 +13,7 @@ class mealCategory extends HTMLElement{
 
     render(){
         console.log(this.beefs);
-        this.innerHTML=`aaaa`;
+        this.innerHTML=`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`;
     }
 }
 
