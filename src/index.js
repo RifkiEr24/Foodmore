@@ -1,3 +1,4 @@
+import 'regenerator-runtime'
 import "bootstrap/dist/js/bootstrap.bundle";
 import "./styles/style.css";
 import AOS from "aos";
