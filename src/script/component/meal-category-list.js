@@ -28,7 +28,7 @@ class mealCategory extends HTMLElement{
         row.setAttribute("class","row ml-0 mr-0");
         this._category.slice(-8).forEach(category=>{
             const categoryItemElement=document.createElement("category-item");
-            categoryItemElement.setAttribute("class","col-md-3");
+            categoryItemElement.setAttribute("class","col-md-3 col-6");
             categoryItemElement.setAttribute("data-aos","fade-up");
             categoryItemElement.category=category;
             section.appendChild(row);

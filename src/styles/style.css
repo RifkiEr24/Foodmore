@@ -128,4 +128,6 @@ section{
       cursor: pointer;
   }
  
-  
+  #footer{
+      height: 5vh !important;
+  }
