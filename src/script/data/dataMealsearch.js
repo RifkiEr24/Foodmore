@@ -7,6 +7,7 @@ class DataMeal{
         })
         .then(response => {
       return response.json();
+      
     })
    .then(responseJson => {
      if(responseJson.meals){
